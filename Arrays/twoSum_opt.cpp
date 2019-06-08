@@ -4,8 +4,7 @@ public:
     {
 	unordered_map<int, int> hash; //Number, Index
         
-	for (int i = 0; i < numbers.size(); i++) 
-        {
+	for (int i = 0; i < numbers.size(); i++) {
 		int numberToFind = target - numbers[i];
 
 		if (hash.find(numberToFind) != hash.end()) 
